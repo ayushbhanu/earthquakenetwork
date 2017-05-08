@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="15dp"
+
+
+    >
+    <TextView
+        android:id="@+id/mag"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="left"
+
+        android:background="@drawable/magcircle"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        tools:text="8.9" />
+
+
+    <LinearLayout
+        android:layout_width="15dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            tools:text="17 neww"
+            android:layout_weight="1"
+            android:textColor="@color/detailcolor"
+            android:id="@+id/loc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            tools:text="California"
+            android:id="@+id/area"
+            android:layout_weight="1"
+            android:textColor="@color/loccolor"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:paddingLeft="14dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="right"
+        android:layout_weight="1"
+        tools:text="12-dec-2014"
+        android:id="@+id/date" />
+
+
+</LinearLayout>
+
